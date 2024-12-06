@@ -20,7 +20,7 @@ button.addEventListener('click',()=>{
     console.log(button.value);
     const word=text.value.trim();
     if(word===''){
-        message.textContent="Please enter valid Strin
+        message.textContent="Please enter valid String";
     if (!isNaN(word)) {
         text.value='';
          text.focus(); 
@@ -36,4 +36,5 @@ button.addEventListener('click',()=>{
         message.textContent="not palidrome";
         message.style.color='blue';
     }
+}
 });

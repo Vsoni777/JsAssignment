@@ -20,9 +20,7 @@ button.addEventListener('click',()=>{
     console.log(button.value);
     const word=text.value.trim();
     if(word===''){
-        message.textContent="Please enter valid String";
-        message.style.color='red'
-    }
+        message.textContent="Please enter valid Strin
     if (!isNaN(word)) {
         text.value='';
          text.focus(); 
